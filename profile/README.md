@@ -22,7 +22,7 @@ Use [Claude Desktop](https://claude.ai/download), [Cursor](https://cursor.sh), o
 }
 ```
 
-Get the current public demo key (rotated periodically, shared quota):
+Get the current public demo key (shared and rotated periodically — fine for evaluation, not for production load):
 
 ```bash
 curl -s https://gist.githubusercontent.com/serp83/652d191745773ef6d8b5a0a689479cd6/raw/demo-key.txt
