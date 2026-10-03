@@ -6,9 +6,11 @@
 
 Public API specs for the [FAPI](https://fapi.iisis.ru) auto-parts platform — OEM cross-references, vehicle applicability, and parts lookup.
 
-## Try it
+## Getting a key
 
-The Catalog API repo has [a ready request with the public demo key](https://github.com/fapi-dev/catalog-openapi#try-it-now-demo-key). The key is shared and rotated periodically — fine for evaluation, not for production load.
+Register at **[id.iisis.ru](https://id.iisis.ru)** and issue a key on the "Keys" page of your account. A new account starts on a trial package of credits, granted once. The Catalog API repo shows [the first request](https://github.com/fapi-dev/catalog-openapi#getting-a-key).
+
+VIN decoding is billed to a prepaid balance of its own, not to the trial package.
 
 ## What's published
 
@@ -21,9 +23,9 @@ The Catalog API repo has [a ready request with the public demo key](https://gith
 - **Catalog by Make** — make / model / modification → parts catalog with OEM cross-references.
 - **Vindec** — VIN → catalog ID, drop-in for catalog-driven applications.
 
-## Production access
+## Questions
 
-Demo keys are for evaluation. For production use, contact `development.iisis@gmail.com` or visit **[fapi.iisis.ru](https://fapi.iisis.ru)**.
+`development.iisis@gmail.com` or **[fapi.iisis.ru](https://fapi.iisis.ru)**.
 
 ---
 
